@@ -67,7 +67,7 @@ h1 {
 .hero {
     display: flex;
     flex-direction: row;
-    margin: 50px;
+    margin: 20px;
 }
 
 .hero-right {
@@ -192,4 +192,13 @@ h4 {
     border: 2px solid white;
     border-radius: 8px;
     margin-left: -200px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 75px;
+    align-items: center;
 }
