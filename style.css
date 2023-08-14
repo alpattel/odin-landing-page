@@ -143,3 +143,53 @@ h3{
     justify-content: flex-end;
     margin-right: 200px;
 }
+
+.call-to-action-section {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 75%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+.cta-left {
+    width: 80%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h4 {
+    font-size: 24px;
+    color: white;
+}
+
+.p-fourth {
+    color: white;
+    font-size: 18px;
+}
+
+.cta-right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cta-btn {
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    height: 25px;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-left: -200px;
+}
