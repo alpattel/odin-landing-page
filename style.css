@@ -86,7 +86,33 @@ h1 {
     margin-left: 220px;
 }
 
-p {
+.p-first {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+.boxes {
+    border: 3px solid #3882F6;
+    width: 200px;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.p-second {
+    text-align: center;
+    font-size: 18px;
 }
